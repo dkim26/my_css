@@ -1,5 +1,7 @@
+
+
 *{
-background-color:rgba(204, 248, 248, 0.932);  /*background color*/
+background-color:rgba(179, 241, 241, 0.8);  /*backgrouond color*/
 }
 #title{
 color:rgb(204, 84, 168);   /*color*/
@@ -57,15 +59,6 @@ font-weight:bolder;
 .info{
 color:orangered;
 }
-.box{
-border: 5px transparent;
-padding: 0px;
-width: 500px;
-margin-left:0px;        /*box model*/
-margin-right:0px;
-margin-top: 10px;
-margin-bottom: 10px;
-}
 .fire{
 font-family:fantasy;
 font-style:oblique;
@@ -97,6 +90,13 @@ font-weight:bolder;
 [attribute-name="attribute-value"]{   /*attribute value*/
 color:midnightblue;  
 }
+.box{
+border: 1px transparent;
+padding: 0px;
+width: 500px;
+margin-left: 0px;
+margin-right: 0px;
+}
 #footer.last{                  /*compounding selector*/
 font-family:monospace;
 font-size: 15px;
@@ -104,10 +104,10 @@ font-size: 15px;
 /*
 .sonic{
 background-image: url("https://pnommensen.com/images/classic-sonic-transparent-17.png");
-background-position: center;
+background-position: right;
 background-repeat: no-repeat;
 background-size: 350px 400px;
-}
+  }
 */
 /*
 .bubbles{
@@ -117,4 +117,4 @@ background-position: right top;
   margin-right: 200px;
   background-attachment: fixed;
 }
-*/  
+*/
