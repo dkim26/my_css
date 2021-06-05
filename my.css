@@ -1,15 +1,5 @@
-
-/*
-.bubbles{
-background-image:url("http://www.clker.com/cliparts/v/f/G/c/X/p/bubbles-md.png");
-background-repeat: repeat-y;
-background-position: right top;
-  margin-right: 200px;
-  background-attachment: fixed;
-}
-*/
 *{
-background-color:rgb(179, 241, 241);  /*backgrouond color*/
+background-color:rgba(179, 241, 241, 0.8);  /*background color*/
 }
 #title{
 color:rgb(204, 84, 168);   /*color*/
@@ -84,12 +74,6 @@ display: inline-block;
 a:hover, a:active {
 background-color: rgb(235, 232, 52);
 }
-.sonic{
-background-image: url("https://pnommensen.com/images/classic-sonic-transparent-17.png");
-background-position: right;
-background-repeat: no-repeat;
-background-size: 350px 400px;
-}
 .final > ol{   /* ancestor-descendent*/
 color:brown;
 }
@@ -110,5 +94,20 @@ font-size: 15px;
 }
 
 /*
-background-color:rgba(255, 99, 71, 0.5) // transparent color
+.sonic{
+background-image: url("https://pnommensen.com/images/classic-sonic-transparent-17.png");
+background-position: right;
+background-repeat: no-repeat;
+background-size: 350px 400px;
+  }
 */
+
+/*
+.bubbles{
+background-image:url("http://www.clker.com/cliparts/v/f/G/c/X/p/bubbles-md.png");
+background-repeat: repeat-y;
+background-position: right top;
+  margin-right: 200px;
+  background-attachment: fixed;
+}
+*/  
