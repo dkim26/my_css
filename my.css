@@ -1,0 +1,114 @@
+
+/*
+.bubbles{
+background-image:url("http://www.clker.com/cliparts/v/f/G/c/X/p/bubbles-md.png");
+background-repeat: repeat-y;
+background-position: right top;
+  margin-right: 200px;
+  background-attachment: fixed;
+}
+*/
+*{
+background-color:rgb(179, 241, 241);  /*backgrouond color*/
+}
+#title{
+color:rgb(204, 84, 168);   /*color*/
+text-shadow:2px 1px rgb(83, 137, 238);
+}
+#title p{
+font-size: 1.2em;   
+}
+.emeralds > h1{     /* parent-child */
+display:block;
+font-size: 2em;
+margin-top: 0;
+margin-bottom:0;
+margin-left: 0;
+margin-right: 0;
+font-weight:bolder;    
+}
+.emeralds{
+background-image:url("http://vignette4.wikia.nocookie.net/sonicthehedgehogfanon/images/e/e9/Chaos_Emeralds.png/revision/latest?cb=20130712042202");
+background-size: 350px 400px;
+background-position: right;
+background-repeat: repeat-y;
+}
+.rings1{
+border: 10px solid;
+padding: 10px;
+width: 750px;
+height: 150px;
+margin-left:0px;        /*box model*/
+margin-right:0px;
+margin-top: 10px;
+margin-bottom: 10px;
+border-image:url("https://www.freepngimg.com/thumb/sonic_the_hedgehog/82895-and-sonic-symbol-wallpaper-rings-secret-computer.png") 300 round;
+}
+.rings2{
+border: 10px solid transparent;
+padding: 10px;
+width: 400px;
+height: 150px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 10px;
+margin-bottom: 10px;
+border-image:url("https://www.freepngimg.com/thumb/sonic_the_hedgehog/82895-and-sonic-symbol-wallpaper-rings-secret-computer.png") 300 round;
+}
+h2, h3, h4, h5, h6{    /*selectors*/
+display:block;
+font-size: 1.3em;
+margin-top: 1em;
+margin-bottom: 1em;
+margin-left: 0;
+margin-right: 0;
+font-weight:bolder;    
+}
+.info{
+color:orangered;
+}
+.fire{
+font-family:fantasy;
+font-style:oblique;
+font-size:large;
+text-shadow:whitesmoke 2px 4px;
+}
+a:link, a:visited {
+background-color:brown;
+color: white;
+padding: 14px 25px;
+text-align: center;
+text-decoration:chocolate;
+display: inline-block;
+}
+a:hover, a:active {
+background-color: rgb(235, 232, 52);
+}
+.sonic{
+background-image: url("https://pnommensen.com/images/classic-sonic-transparent-17.png");
+background-position: right;
+background-repeat: no-repeat;
+background-size: 350px 400px;
+}
+.final > ol{   /* ancestor-descendent*/
+color:brown;
+}
+.final{
+font-family:cursive;
+font-style:inherit;
+}
+[attribute-name]{   /*attribute*/
+color:red; 
+font-weight:bolder; 
+}
+[attribute-name="attribute-value"]{   /*attribute value*/
+color:midnightblue;  
+}
+#footer.last{                  /*compounding selector*/
+font-family:monospace;
+font-size: 15px;
+}
+
+/*
+background-color:rgba(255, 99, 71, 0.5) // transparent color
+*/
