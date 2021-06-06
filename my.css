@@ -1,7 +1,7 @@
 
 
 *{
-background-color:rgba(179, 241, 241, 0.8);  /*backgrouond color*/
+background-color:rgba(179, 241, 241, 1);  /*backgrouond color*/
 }
 #title{
 color:rgb(204, 84, 168);   /*color*/
@@ -83,6 +83,18 @@ color:brown;
 font-family:cursive;
 font-style:inherit;
 }
+.important{
+border: 1px transparent;
+padding: 10px;
+width: 400px;
+height:20px;
+margin-left: 0px;
+margin-right: 0px;
+background-image:url("http://images1.wikia.nocookie.net/__cb20120812201011/thedimensionsaga/images/b/b2/Master_Emerald.png");
+background-size: 20px 30px;
+background-position: right;
+background-repeat: no-repeat;
+}
 [attribute-name]{   /*attribute*/
 color:red; 
 font-weight:bolder; 
@@ -101,13 +113,18 @@ margin-right: 0px;
 font-family:monospace;
 font-size: 15px;
 }
-/*
-.sonic{
-background-image: url("https://pnommensen.com/images/classic-sonic-transparent-17.png");
+.fleetway{
+background-image: url("http://img2.wikia.nocookie.net/__cb20120904011622/sonicsociety/images/6/6d/Fleetway_super_sonic_flat_by_Magnum13.png");
+background-size: 200px 250px;
 background-position: right;
 background-repeat: no-repeat;
-background-size: 350px 400px;
-  }
+}
+.emeralds2{
+  background-image:url("http://vignette4.wikia.nocookie.net/sonicthehedgehogfanon/images/e/e9/Chaos_Emeralds.png/revision/latest?cb=20130712042202");
+  background-size: 350px 400px;
+  background-position: right;
+  background-repeat: no-repeat;  
+}
 */
 /*
 .bubbles{
